@@ -1,0 +1,20 @@
+services:
+  voicebox:
+    image: voicevox/voicevox_engine:cpu-ubuntu20.04-latest
+    ports:
+      - 127.0.0.1:50021:50021
+
+  #marp:
+  #  image: marpteam/marp-cli:latest
+  #  entrypoint: ["/bin/bash", "-c", "sleep infinity"]
+  #  volumes:
+  #    - ./marp:/app
+
+  #server:
+  #  image: python
+  #  entrypoint:
+  #    - "/bin/bash"
+  #    - "-c"
+  #    - "apt-get update && apt-get install -y poppler-utils && pip install -r /app/requirements.txt && python /app/main.py"
+  #  volumes:
+  #    - ./server:/app

@@ -1,0 +1,9 @@
+markitdown[pdf, docx, pptx]
+fastapi
+pdf2image
+uvicorn
+python-multipart
+pymupdf
+poppler-utils
+langchain_openai
+langchain_core

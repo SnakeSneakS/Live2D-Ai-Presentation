@@ -1,0 +1,1 @@
+Fetched from https://cdn.jsdelivr.net/gh/dylanNew/live2d/webgl/Live2D/lib/live2d.min.js
